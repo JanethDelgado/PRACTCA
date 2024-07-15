@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-By-Janeth</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2>Formulario de Datos Personales</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombres">Nombres</label>
+                    <input type="text" class="form-control" id="nombres" placeholder="Nombres">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="fechaNacimiento">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="correo">Correo</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Correo">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="identificacion">Identificación</label>
+                    <input type="text" class="form-control" id="identificacion" placeholder="Identificación">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="Dirección">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Sexo</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sexo" id="sexoHombre" value="hombre">
+                    <label class="form-check-label" for="sexoHombre">
+                        Hombre
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sexo" id="sexoMujer" value="mujer">
+                    <label class="form-check-label" for="sexoMujer">
+                        Mujer
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

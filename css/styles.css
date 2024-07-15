@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    background-color: #ffe7ec; /* Color de fondo claro */
+    font-family: Georgia, sans-serif; /* Familia de fuentes */
+    color: #020a1256; /* Color de texto predeterminado */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    margin-top: 30px;
+}
+
+/* Estilos para los encabezados */
+h1 {
+    color: #dd1515; /* Color azul para el encabezado */
+    font-size: 3.5rem; /* Tamaño de fuente para el encabezado */
+}
+
+h2 {
+    color: #d51111; /* Color gris para subencabezados */
+    font-size: 2.6rem; /* Tamaño de fuente para subencabezados */
+}
+    P{
+        color: #280d5e; /* Color gris para subencabezados */
+        font-size: 1.6rem; 
+    }
+
+/* Estilos para el formulario */
+.form-group label {
+    color: #283f55; /* Color de texto de las etiquetas del formulario */
+    font-size: 1.1rem; /* Tamaño de letra de las etiquetas */
+}
+
+.form-control {
+    border-radius: 0.25rem; /* Bordes redondeados */
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #d09bb2; /* Color de fondo del botón */
+    border-color: #cee425; /* Color del borde del botón */
+    font-size: 2rem; /* Tamaño de letra del botón */
+}
+
+.btn-primary:hover {
+    background-color: #d41743; /* Color de fondo del botón al pasar el mouse */
+    border-color: #c4e421; /* Color del borde del botón al pasar el mouse */
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #0d6fd0; /* Color de fondo del navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #a90e0e; 
+    font-size: 1.9rem;
+}
+
+.nav-link:hover {
+    color: #dddddd; 
+    
+
+/* Estilos para las columnas del formulario */
+.form-row .form-group {
+    margin-bottom: 1rem; /* Espaciado entre filas del formulario */
+}
+
+.form-row .form-group label {
+    font-size: 1rem; /* Tamaño de letra para las etiquetas dentro de las filas */
+    color: #040114; /* Color de texto para las etiquetas dentro de las filas */
+}
+
+.form-row .form-control {
+    font-size: 0.9rem; /* Tamaño de letra para los campos del formulario */
+    color: #3f2c70; /* Color de texto para los campos del formulario */
+}
+
+
